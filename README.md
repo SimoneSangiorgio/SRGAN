@@ -1,7 +1,7 @@
 # SRGAN - Super Resolution Generative Adversarial Networks
 
 ## Code's Task
-4x image upscaling
+### 4x image upscaling
 ![SRGAN_Result3](https://github.com/SimoneSangiorgio/SRGAN/assets/169915445/e6ad1275-0d40-4ee9-a636-8c6d209c6d36)
 
 ## Architecture
@@ -15,7 +15,7 @@ The code has 3 modes of use:
 - train: SRGAN uses the dataset to train a model
 - evaluate: the trained model is evaluated
 - generate: using the trained model, x4 upscaling of an image is performed
-- 
+
 ### mode = 'train'
 If the mode is ‘train’, both the discriminator and the generator are trained in each epoch.
 
