@@ -5,10 +5,16 @@
 ![SRGAN_Result3](https://github.com/SimoneSangiorgio/SRGAN/assets/169915445/e6ad1275-0d40-4ee9-a636-8c6d209c6d36)
 
 ## Architecture
+### Generator
+A convolutional neural network (CNN) that takes as input a three-dimensional tensor, in this case a 64x64 RGB image, and returns a generated output tensor, i.e. a 256x256 RGB image. A 4x upscaling is performed in this generator.
+### Discriminator
+A convolutional neural network (CNN) that takes as input a three-dimensional tensor, in this case a 256x256 RGB image, and returns a single value, representing the probability that the input image is real or created by the generator.
+
+Initially, the first convolutional layers detect low-level features such as simple edges and colours, while as one moves to the next layers, the features extracted become more abstract and sophisticated, such as shapes and textures.
 ![model](https://github.com/SimoneSangiorgio/SRGAN/assets/169915445/839b0edb-19cb-4384-8d23-e07aa82e1069)
 
 ## Dataset for Training and Test
-DIV2K
+### DIV2K
 
 ## Mode of Use
 The code has 3 modes of use:
