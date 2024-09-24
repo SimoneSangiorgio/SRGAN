@@ -1,7 +1,7 @@
 # SRGAN - Super Resolution Generative Adversarial Networks
 
 ## Code's Task
-### 4x image upscaling
+##### 4x image upscaling
 ![SRGAN_Result3](https://github.com/SimoneSangiorgio/SRGAN/assets/169915445/e6ad1275-0d40-4ee9-a636-8c6d209c6d36)
 
 ## Architecture
@@ -14,7 +14,7 @@ Initially, the first convolutional layers detect low-level features such as simp
 ![model](https://github.com/SimoneSangiorgio/SRGAN/assets/169915445/839b0edb-19cb-4384-8d23-e07aa82e1069)
 
 ## Dataset for Training and Test
-### DIV2K
+##### DIV2K
 
 ## Mode of Use
 The code has 3 modes of use:
